@@ -1,4 +1,4 @@
-import './App.css'
+import React from 'react';import './App.css'
 import CustomRoutes from './assets/routes/CustomRouts'
 
 function App() {

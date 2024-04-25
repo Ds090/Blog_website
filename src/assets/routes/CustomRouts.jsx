@@ -6,7 +6,7 @@ function CustomRoutes() {
     return (
         <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/Home/:id' element={<BlogDetails/>}/>
+            <Route path='/home/:id' element={<BlogDetails/>}/>
         </Routes>
     )
 }

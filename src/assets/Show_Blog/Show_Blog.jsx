@@ -14,7 +14,7 @@ rgb(255, 255, 255)]"
           {blog.title}
         </h1>
         <p className="text-gray-800 ">{blog.description}</p>
-        <Link to={`/Home/${blog.id}`} className='border text-center rounded-sm bg-pink-200 text-pink-700'>Read More</Link>
+        <Link to={`/home/${blog.id}`} className='border text-center rounded-sm bg-pink-200 text-pink-700'>Read More</Link>
       </div>
       
     </div>

@@ -5,8 +5,8 @@ import BlogDetails from '../BlogDetails/BlogDetails';
 function CustomRoutes() {
     return (
         <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/home/:id' element={<BlogDetails/>}/>
+            <Route path="/" element={<Home/>} />
+            <Route path="/home/:id" element={<BlogDetails/>}/>
         </Routes>
     )
 }

@@ -25,7 +25,7 @@ function Blog() {
     <div>
       <nav className="flex justify-between items-center py-3 px-9 font-semibold text-2xl border w-full">
         <h1 className="font-semibold text-[30px]">PWSkills Blog</h1>
-        <Link to={`/`}>
+        <Link to='/'>
           <GoArrowLeft />
         </Link>
       </nav>

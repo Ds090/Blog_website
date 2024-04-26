@@ -35,7 +35,7 @@ function AddBlog({ handleAddBlog, handleClose }) {
         <input
           type="text"
           placeholder="Enter Blog Post URL"
-          className="border lg:w-[400px] py-1 px-1 font-semibold text-[16px]"
+          className="border lg:w-[400px] w-[270px] py-1 px-1 font-semibold text-[16px]"
           value={post}
           onChange={(e) => {
             setPost(e.target.value);
@@ -44,7 +44,7 @@ function AddBlog({ handleAddBlog, handleClose }) {
         <input
           type="text"
           placeholder="Enter Blog Title"
-          className="border lg:w-[400px] py-1 px-1 font-semibold text-[16px]"
+          className="border lg:w-[400px] w-[270px] py-1 px-1 font-semibold text-[16px]"
           value={title}
           onChange={(e) => {
             setTitle(e.target.value);
@@ -53,7 +53,7 @@ function AddBlog({ handleAddBlog, handleClose }) {
         <input
           type="text"
           placeholder="Enter Blog Description"
-          className="border lg:w-[400px] py-1 px-1 font-semibold text-[16px]"
+          className="border lg:w-[400px] w-[270px] py-1 px-1 font-semibold text-[16px]"
           value={description}
           onChange={(e) => {
             setDescription(e.target.value);
@@ -70,7 +70,7 @@ function AddBlog({ handleAddBlog, handleClose }) {
           }}
         ></textarea>
         <button
-          className="bg-[#6F11F5] lg:w-[400px] w-full py-1 rounded-md text-white font-semibold hover:bg-purple-700 hover:transition hover:duration-500 hover:ease-in-out hover:delay-150"
+          className="bg-[#6F11F5] lg:w-[400px]  w-full py-1 rounded-md text-white font-semibold hover:bg-purple-700 hover:transition hover:duration-500 hover:ease-in-out hover:delay-150"
           onClick={setBlogPost}
         >
           Add Blog
